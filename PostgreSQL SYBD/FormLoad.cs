@@ -16,5 +16,17 @@ namespace PostgreSQL_SYBD
         {
             InitializeComponent();
         }
+
+        private void FormLoad_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnLoad_Click(object sender, EventArgs e)
+        {
+            FormEdit FrEd = new FormEdit();
+            FrEd.Show();
+            Hide();
+        }
     }
 }

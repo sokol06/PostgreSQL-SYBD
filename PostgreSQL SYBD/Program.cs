@@ -16,7 +16,7 @@ namespace PostgreSQL_SYBD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormEdit());
+            Application.Run(new FormLoad());
         }
     }
 }
